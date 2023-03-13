@@ -78,7 +78,7 @@ const Contact = () => {
                 value={form.name}
                 onChange={handleChange}
                 placeholder = "What's Your Name?"
-                className="bg-tertiary-100 py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
                 />
             </label>
 
@@ -90,7 +90,7 @@ const Contact = () => {
                 value={form.email}
                 onChange={handleChange}
                 placeholder = "What's Your Email?"
-                className="bg-tertiary-100 py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
                 />
             </label>
 
@@ -103,7 +103,7 @@ const Contact = () => {
                 value={form.message}
                 onChange={handleChange}
                 placeholder = "What would you like to work on together?"
-                className="bg-tertiary-100 py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
                 />
             </label>
 
